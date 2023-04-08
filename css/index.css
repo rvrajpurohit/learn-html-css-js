@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Fira Sans", sans-serif;
+  background: #d9d7dd;
+}
+.main {
+  position: relative;
+}
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(192, 189, 96);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#project {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 45px;
+  row-gap: 35px;
+  justify-content: space-evenly;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+}
+
+.card:hover {
+  border: 1px solid rgb(67, 113, 219);
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.link {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
