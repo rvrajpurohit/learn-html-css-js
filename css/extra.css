@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#watch {
+  border: 2px solid red;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  background-color: indianred;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  position: relative;
+}
+#line{
+  background-color: black;
+}
+li {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  transform-origin: 0% 100%;
+  
+}
+.text {
+  position: absolute;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  text-align: center;
+  transform: skewY(60deg) rotate(15deg);
+  padding-top: 20px;
+  color: rgb(3, 248, 19);
+  font-size: 3rem;
+}
+li:first-child {
+  transform: rotate(15deg) skewY(-60deg);
+  background-color: rgb(195, 212, 135);
+}
+li:nth-child(2) {
+  transform: rotate(45deg) skewY(-60deg);
+  background-color: #718242;
+
+}
+li:nth-child(3) {
+  transform: rotate(75deg) skewY(-60deg);
+  background-color: #63ae98;
+
+}
+li:nth-child(4) {
+  transform: rotate(105deg) skewY(-60deg);
+  background-color: #b45447;
+
+}
+li:nth-child(5) {
+  transform: rotate(135deg) skewY(-60deg);
+  background-color: rgb(255, 212, 212);
+
+}
+li:nth-child(6) {
+  transform: rotate(165deg) skewY(-60deg);
+  background-color: rgb(195, 212, 212);
+
+}
+li:nth-child(7) {
+  transform: rotate(195deg) skewY(-60deg);
+  background-color: rgb(208, 26, 71);
+
+}
+li:nth-child(8) {
+  transform: rotate(225deg) skewY(-60deg);
+  background-color: rgb(195, 255, 135);
+
+}
+li:nth-child(9) {
+  transform: rotate(255deg) skewY(-60deg);
+  background-color: rgb(208, 101, 126);
+
+}
+li:nth-child(10) {
+  transform: rotate(285deg) skewY(-60deg);
+  background-color: rgb(255, 181, 126);
+
+}
+li:nth-child(11) {
+  transform: rotate(315deg) skewY(-60deg);
+  background-color: rgb(255, 181, 212);
+
+}
+li:nth-child(12) {
+  transform: rotate(345deg) skewY(-60deg);
+  background-color: rgb(255, 71, 212);
+
+}
