@@ -14,12 +14,12 @@ body {
 }
 
 header {
-    height: 100%;
     width: 100%;
     max-width: 300%;
     display: flex;
-    /* position: fixed; */
+    position: fixed;
     top: 0;
+    left: 0;
     padding: 10px;
     margin: 10px;
 }
@@ -75,6 +75,7 @@ a {
     max-width: 720px;
     width: 100%;
     margin: auto;
+    padding-top: 6rem;
 }
 
 #email {

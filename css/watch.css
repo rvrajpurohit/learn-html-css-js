@@ -65,6 +65,7 @@ body {
   animation-duration: 3600s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  
 }
 @keyframes minute {
   0% {
