@@ -18,7 +18,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
 }
 
 #project {
