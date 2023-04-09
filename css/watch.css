@@ -34,7 +34,6 @@ body {
   transform-origin: bottom center;
   transform: rotate(50deg);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
-  z-index: 1;
   animation: hour;
   animation-duration: 86400s;
   animation-iteration-count: infinite;
@@ -62,7 +61,6 @@ body {
     transform-origin: bottom center;
     transform: rotate(90deg);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
-    z-index: 1;
     animation: minute;
     animation-duration: 3600s;
     animation-iteration-count: infinite;
@@ -90,7 +88,6 @@ body {
     transform-origin: bottom center;
     transform: rotate(130deg);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
-    z-index: 1;
     animation: second;
     animation-duration: 60s;
     animation-iteration-count: infinite;
@@ -106,7 +103,6 @@ body {
     }
 }
 .dot {
-  z-index: 1;
   position: absolute;
   height: 15px;
   width: 15px;
@@ -118,4 +114,51 @@ body {
   border: 2px solid #1b1b1b;
   border-radius: 100px;
   margin: auto;
+}
+.name{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 42%;
+    left: 70%;
+    right: 10%;
+    bottom: 0;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 2rem; 
+}
+/* .date{
+    z-index: 1;
+    position: absolute;
+    height: 15px;
+    width: 45px;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    background: white;
+    border: 2px solid #1b1b1b;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+} */
+
+.time{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    border: 1px solid #fff8dc;
+    background-color: #fff;
+    padding: 5px;
+    display: block;
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,.4);
+    border-radius: 5px;
+    min-width: 70px;
+    height: 15px;
+
+}
+.time small{
+    color:red;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
