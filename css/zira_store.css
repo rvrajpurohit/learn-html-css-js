@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Exo 2", sans-serif;
+  font-size: 40%;
+  color: #0f0f0f;
+}
+
+body {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--white);
+}
+:root {
+  --white: #f0f0f0;
+  --red: #be3144;
+  --blue: #45567d;
+  --black: #0f0f0f;
+}
+header,
+.section4 {
+  color: var(--black);
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+.heading {
+  font-size: 8rem;
+}
+.heading1 {
+  letter-spacing: 5px;
+  line-height: 0;
+}
+.section1 {
+  text-align: center;
+}
+.icon {
+  padding: 15px;
+}
+
+i {
+  padding: 0 4px;
+  color: rgba(99, 99, 8, 0.89);
+}
+a {
+  text-decoration: none;
+}
+.section2 {
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  text-indent: 14rem;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+nav > ul {
+  background-color: rgba(230, 127, 42, 0.311);
+}
+
+li {
+  display: inline;
+  font-size: 2.5rem;
+  padding: 10px 20px;
+}
+
+nav > ul > li:hover {
+  background-color: yellow;
+}
+.section3 {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/image/zirastore.jpg");
+  background-repeat: no-repeat;
+  background-position: auto;
+}
+.sec3_0 {
+  font-size: 6rem;
+  color: #0f0f0f;
+  padding: 10px;
+}
+.sec3_1 {
+  width: 50%;
+  padding: 10px;
+  opacity: 0.5;
+  border-radius: 10px;
+  border: none;
+}
+.sec4 {
+  font-size: 6rem;
+}
+.section5 {
+  color: #0f0f0f;
+  text-align: center;
+}
+.sec5:hover {
+  border-bottom: 2px solid #0f0f0f;
+}
+.section6 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 45px;
+  row-gap: 35px;
+  justify-content: space-evenly;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #fff;
+}
+.card:hover {
+  border: 1px solid rgb(67, 113, 219);
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding: 2px 16px;
+}
+span {
+  color: #0f0f0f;
+}
+
+.sec02 {
+  text-decoration: line-through;
+  padding: 5px;
+}
+.addcart {
+  border: 1px solid green;
+  border-radius: 50px;
+  padding: 5px;
+  color: green;
+  background-color: #fff;
+  margin-top: 5px;
+}
+.section7{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    padding: 20px;
+    column-gap: 40px;
+    justify-content: center;
+}
+.sec7{
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    width: 300px;
+}
+.sec8{
+    height: 60vh;
+   width: 100%;
+}
