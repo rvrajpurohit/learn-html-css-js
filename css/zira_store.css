@@ -40,9 +40,15 @@ header,
   text-align: center;
 }
 .icon {
-  padding: 15px;
+  padding: 10px;
+  border: 1px solid white;
+  font-size: 2.5rem;
 }
-
+.icon:hover {
+  border: 1px solid blue;
+  border-radius: 20px;
+  background-color: lightblue;
+}
 i {
   padding: 0 4px;
   color: rgba(99, 99, 8, 0.89);
@@ -57,7 +63,7 @@ a {
 nav {
   text-indent: 14rem;
 }
-ul {
+nav > ul {
   list-style-type: none;
   margin: 0;
   padding: 10px;
@@ -66,7 +72,7 @@ nav > ul {
   background-color: rgba(230, 127, 42, 0.311);
 }
 
-li {
+nav > ul > li {
   display: inline;
   font-size: 2.5rem;
   padding: 10px 20px;
@@ -78,13 +84,17 @@ nav > ul > li:hover {
 .section3 {
   width: 100%;
   height: 60vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-image: url("/image/zirastore.jpg");
+  background-color: aquamarine;
   background-repeat: no-repeat;
   background-position: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec333{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
 }
 .sec3_0 {
   font-size: 6rem;
@@ -107,6 +117,11 @@ nav > ul > li:hover {
 }
 .sec5:hover {
   border-bottom: 2px solid #0f0f0f;
+}
+.sec5 {
+  display: inline;
+  font-size: 2.5rem;
+  padding: 10px 20px;
 }
 .section6 {
   display: grid;
@@ -143,28 +158,136 @@ span {
 .addcart {
   border: 1px solid green;
   border-radius: 50px;
-  padding: 5px;
+  padding: 10px;
   color: green;
   background-color: #fff;
   margin-top: 5px;
+  cursor: pointer;
 }
-.section7{
+.addcart:hover {
+  background-color: green;
+  color: #fff;
+}
+.section7 {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  padding: 20px;
+  column-gap: 40px;
+  justify-content: center;
+}
+div.background {
+  background-image: url(/image/zs1.png);
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+}
+div.background1 {
+  background-image: url(/image/zs2.png);
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+}
+div.background2 {
+  background-image: url(/image/zs3.png);
+  border: 1px solid black;
+  width: 300px;
+  height: 150px;
+  background-size: cover;
+}
+div.background3 {
+  background-image: url(/image/zs4.png);
+  border: 1px solid black;
+  width: 300px;
+  height: 150px;
+  background-size: cover;
+}
+div.background p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.section8 {
+  background-image: url(/image/S.png);
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  padding: 10px;
+  position: relative;
+}
+.internal-text {
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  top: 75px;
+}
+.sec08 {
+  color: #000000;
+  font-size: 4rem;
+  width: 70%;
+  left: 20px;
+}
+.btn {
+  width: 50%;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+}
+.section9 {
+  width: 100%;
+  background-color: #000000;
+  text-align: center;
+  padding: 20px;
+}
+.sec9 {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 30px 0 30px;
+}
+ul {
+  padding: 20px;
+}
+li {
+  padding: 10px 0;
+  list-style: none;
+}
+.address {
+  display: flex;
+  justify-content: space-around;
+}
+.last {
+  padding: 10px;
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 468px) {
+  html {
+    font-size: 30%;
+  }
+  .section3,
+  .section8 {
     width: 100%;
-    height: 60vh;
-    display: flex;
-    padding: 20px;
-    column-gap: 40px;
-    justify-content: center;
-}
-.sec7{
-    row-gap: 20px;
-    display: flex;
-    flex-direction: column;
-}
-.item{
-    width: 300px;
-}
-.sec8{
-    height: 60vh;
-   width: 100%;
+    height: 30vh;
+  }
+  .sec3_0 {
+    font-size: 4.5rem;
+  }
+  .sec3_1 {
+    width: 30%;
+  }
+  .sec08 {
+    font-size: 3rem;
+  }
+  .btn {
+    width: 24%;
+    font-size: 1rem;
+  }
+  .section6 {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+  }
 }
