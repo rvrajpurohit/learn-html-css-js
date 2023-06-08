@@ -1,0 +1,410 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    text-align: center;
+    font-family: "Roboto";
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+#type1{
+    background-color: #42a5f5;
+    padding-bottom: 50px;
+}
+h3{
+    padding: 30px 0 0 0;
+}
+h3 a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: light;
+    border-bottom: 1px dotted;
+    padding: 0 2px 3px 2px;
+}
+h1{
+    font-size: 50px;
+    padding: 30px 0;
+}
+.btn-1{
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.btn-1::before{
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background: #fff;
+    left: -55px;
+    top: -40px;
+    transform: rotate(37deg);
+    transition: all .3s;
+    opacity: 0.3;
+}
+.btn-1:hover::before{
+    left: 95%;
+}
+.btn-2{
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.btn-2::before{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 160px;
+    background: #fff;
+    left: 0px;
+    top: 0px;
+    /* transform: rotate(90deg); */
+    transition: all .3s;
+    opacity: 0.3;
+}
+.btn-2:hover::before{
+    top: 77%;
+}
+.btn-3{
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.btn-3::before{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 160px;
+    background: #fff;
+    left: 0px;
+    bottom: 0px;
+    /* transform: rotate(90deg); */
+    transition: all .3s;
+    opacity: 0.3;
+}
+.btn-3:hover::before{
+    bottom: 77%;
+}
+.btn-4{
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.btn-4::before{
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    background: #fff;
+    right: -55px;
+    bottom: -40px;
+    transform: rotate(37deg);
+    transition: all .3s;
+    opacity: 0.3;
+}
+.btn-4:hover::before{
+    right: 95%;
+}
+#type2{
+    background: #66bb6a;
+    padding-bottom: 50px;
+}
+h1{
+    font-size: 50px;
+    padding: 30px 0;
+}
+.btn-5{
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.btn-5::before{
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 0px;
+    background: #fff;
+    left: 0;
+    bottom: 0;
+    transition: all .3s;
+    opacity: 0.3;
+}
+.btn-5:hover::before{
+    width: 100%;
+}
+.btn-6{
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.btn-6::before{
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 0px;
+    background: #fff;
+    right: 0;
+    bottom: 0;
+    transition: all .3s;
+    opacity: 0.3;
+}
+.btn-6:hover::before{
+    width: 100%;
+}
+.btn-7{
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.btn-7::before{
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 160px;
+    background: #fff;
+    right: 0;
+    bottom: 0;
+    transition: all .3s;
+    opacity: 0.3;
+}
+.btn-7:hover::before{
+    height: 100%;
+}
+.btn-8{
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.btn-8::before{
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 160px;
+    background: #fff;
+    right: 0;
+    top: 0;
+    transition: all .3s;
+    opacity: 0.3;
+}
+.btn-8:hover::before{
+    height: 100%;
+}
+
+#type3{
+    background: #78909c;
+    padding-bottom: 50px;
+}
+h1{
+    font-size: 50px;
+    padding: 30px 0;
+}
+.btn-9{
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    /* border: 1px solid #fff; */
+    cursor: pointer;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.btn-9::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    background: #fff;
+    left: 45%;
+    height: 2px;
+    bottom: 0;
+    transition: all .3s;
+    opacity: 0.7;
+}
+.btn-9:hover::before{
+    width: 100%;
+    left: 0;
+}
+.btn-10{
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    /* border: 1px solid #fff; */
+    cursor: pointer;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.btn-10::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    background: #fff;
+    left: 45%;
+    height: 2px;
+    top: 0;
+    transition: all .3s;
+    opacity: 0.7;
+}
+.btn-10:hover::before{
+    width: 100%;
+    left: 0;
+}
+.btn-11{
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.btn-11::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    background: #fff;
+    left: 45%;
+    height: 2px;
+    top: 0;
+    transition: all .3s;
+    opacity: 0.7;
+}
+.btn-11:hover::before{
+    width: 100%;
+    left: 0;
+}
+.btn-12{
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    border-top: 2px solid #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.btn-12::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    background: #fff;
+    left: 45%;
+    height: 2px;
+    bottom: 0;
+    transition: all .3s;
+    opacity: 0.7;
+}
+.btn-12:hover::before{
+    width: 100%;
+    left: 0;
+}
+
+#type4{
+    background: #ffa726;
+    padding-bottom: 60px;
+    position: relative;
+}
+h1{
+    font-size: 50px;
+    padding: 30px 0;
+}
+.btn-13{
+    background: #51A3B8;
+    font-size: 20px;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 7px 0px #387796;
+    display: inline-block;
+    transition: all .2s;
+    position: relative;
+    padding: 20px 25px;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.btn-14{
+    background: #8d6e63;
+    font-size: 20px;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 7px 0px #6d4c41;
+    display: inline-block;
+    transition: all .2s;
+    position: relative;
+    padding: 20px 25px;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.btn-15{
+    background: #7986cb;
+    font-size: 20px;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 7px 0px #3f51b5;
+    display: inline-block;
+    transition: all .2s;
+    position: relative;
+    padding: 20px 25px;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    margin: 0 20px;
+}
